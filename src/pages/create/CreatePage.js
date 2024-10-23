@@ -1,7 +1,14 @@
+import styled from "styled-components";
+
+const Header = styled.h1`
+    font-weight: lighter;
+    font-size: x-large;
+`;
+
 function CreatePage() {
     return (
         <>
-            <h1>Create Page</h1>
+            <Header>Create Team</Header>
             <div className='container'></div>
         </>
     );
